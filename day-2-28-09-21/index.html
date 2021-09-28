@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1{
+            border:10px solid black;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        table th,td{
+            border:1px solid black;
+            padding: 10px;
+        }
+        thead{
+            background: gray;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum officiis corporis incidunt accusamus accusantium recusandae officia velit, repudiandae rem quaerat.</h1>
+
+<table>
+ <thead>
+    <tr>
+        <th>S/N</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+    </tr>
+ </thead>
+   
+    <tr>
+        <td>1</td>
+        <td>Mr. Karim khan</td>
+        <td>karim@mail.com</td>
+        <td>55555</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Mr. Karim khan</td>
+        <td>karim@mail.com</td>
+        <td>55555</td>
+    </tr>
+    
+</table>
+<h1 id="title">Lorem ipsum dolor sit amet.</h1>
+
+<p  id="title">Lorem ipsum dolor/p>
+
+<h2>HTML FORM</h2>
+
+    <form action="" method="" enctype="multipart/form-data">
+
+        <label for="name">Name</label> <br>
+        <input type="text" name="username" id="name" required placeholder="Please enter your name">
+
+        <p>
+            <input type="email" name="email" placeholder="Enter email">
+        </p>
+        <p>Gender:
+            <input type="radio" name="gender" id="male" value="MALE" >
+            <label for="male">Male</label>
+            
+            <input type="radio" name="gender" value="FEMALE" > female
+            <input type="radio" name="gender" value="OTHER" > other
+        </p>
+        <p>Course:
+            <input type="checkbox" name="course[]" id="HTML" value="HTML" >
+            <label for="HTML">HTML</label>
+            <input type="checkbox" name="course[]" id="CSS" value="CSS" >
+            <label for="CSS">CSS</label>
+            <input type="checkbox" name="course[]" id="PHP" value="PHP" >
+            <label for="PHP">PHP</label>
+           
+        </p>
+
+        <p>
+            Your Location
+            <select>
+                <option>Dhaka</option>
+                <option>Rajshahi</option>
+                <option>Comilla</option>
+            </select>
+        </p>
+        <p>
+            Address: <br>
+            <textarea cols="30" rows="6">
+
+            </textarea>
+        </p>
+        <p>
+            Upload your photo <br>
+            <input type="file">
+        </p>
+
+        <!-- <input type="submit" value="Submit"> -->
+        <button type="submit">Submit</button>
+
+    </form>
+    
+
+</body>
+</html>
