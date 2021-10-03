@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: #ddd;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+.container{
+   width: 1170px;
+   margin:0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   
+}
+
+.hero-area{
+
+    background:url(img/hero-bg.jpg) no-repeat fixed center center / cover;
+   padding: 120px 0;
+}
+
+.hero-text h1{
+    font-size: 70px;
+    color: #fff;
+}
+.hero-text p{   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+a.btn {
+    display: inline-block;  
+    padding: 16px 30px;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.bg-red{
+    background: #ff0000;
+}
+.bg-transperent{
+    background:rgba(0, 0, 0, .30);
+   
+}
