@@ -1,0 +1,139 @@
+
+*{
+    box-sizing: border-box;
+   
+}
+.menu{
+    background-color: #000;
+    position: -webkit-sticky;
+    position: sticky;
+    
+    top: 0;
+  
+ }
+
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    padding: 12px 16px
+}
+.menu ul li a.active{
+    background: green;
+}
+
+.menu ul li a:hover:not(.active){
+    background: red;
+}
+
+
+
+
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    background: #000;
+    padding: 20px;
+    color:#fff;
+    font-size: 72px;
+    text-shadow: 2px 2px 4px red;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+h1 span{
+    color:blue
+}
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-family: 'Baisley';
+    font-size: 50px;
+}
+.social-link a {
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background: red;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding-top: 8px;
+}
+.scrolltop {
+    height: 60px;
+    width: 60px;
+    background: red;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    right:10px;
+    bottom: 70px;
+}
+
+.scrolltop a {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.relative{
+    height: 250px;
+    width: 400px;
+    border: 2px solid red;
+    background:greenyellow;
+    position: relative;
+    z-index: 1;
+}
+
+.absoulte{
+    background: red;
+    color:#fff;
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    top:50px;
+    right:-50px;
+    z-index: -1;
+}
+img{
+    width: 100%;
+}
+
+.our-team{
+    display: flex;
+}
+.team {
+    width: 300px;
+    height: auto;
+    border: 2px solid red;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-overlay{
+    position:absolute;
+    height: 100%;
+    background:rgba(250, 0, 0, .50);
+    top: -100%;
+    transition: .5s;
+}
+.team:hover .team-overlay{
+    top: 0
+}
+.team-overlay h3{
+    text-align: center;
+    color: #fff;
+}
