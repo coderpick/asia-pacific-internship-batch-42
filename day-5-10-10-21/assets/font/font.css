@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Baisley';
+  src: url('Baisley.eot');
+  src: url('Baisley.eot?#iefix') format('embedded-opentype'),
+       url('Baisley.svg#Baisley') format('svg'),
+       url('Baisley.ttf') format('truetype'),
+       url('Baisley.woff') format('woff'),
+       url('Baisley.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
