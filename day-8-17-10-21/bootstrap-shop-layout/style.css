@@ -1,0 +1,17 @@
+
+
+.single-product{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.sale {
+	background: #000;
+	color: #fff;
+	width: 50px;
+	text-align: center;
+	padding: 4px 10px;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
