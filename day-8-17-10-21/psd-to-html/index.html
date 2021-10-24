@@ -10,6 +10,12 @@
   <!-- Place favicon.ico in the root directory -->
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
   <!-- icofont css -->
   <link rel="stylesheet" href="css/icofont.min.css">
   <link rel="stylesheet" href="css/normalize.css">
@@ -21,83 +27,151 @@
 
 <body>
 
-<div class="main-menu">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
+  <div class="main-menu">
+    <nav class="navbar navbar-expand-lg  bg-transparent fixed-top">
+      <div class="container">
 
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png" alt="">
-      </a>
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="">
+        </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>     
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>    
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>        
-         
-        </ul>
-      
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+
+          </ul>
+
+        </div>
       </div>
-    </div>
-  </nav>
-</div>
+    </nav>
+  </div>
 
-<section id="header-area">
+  <section id="header-area">
     <div class="container">
 
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-       
-       
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+
         <div class="carousel-inner">
 
           <div class="carousel-item active">
-            
-              <div class="slider-text">
-                <h3>CREATIVE BUSINESS SPECIALIST </h3>
-                <h1>WE ARE ONU</h1>
-                <h4>WEB DESIGN/ ONE PAGE/ CREATIVE </h4>
-              </div>
+
+            <div class="slider-text">
+              <h3>CREATIVE BUSINESS SPECIALIST </h3>
+              <h1>WE ARE <span>ONU</span></h1>
+              <h4>WEB DESIGN/ ONE PAGE/ CREATIVE </h4>
+            </div>
 
           </div>
 
           <div class="carousel-item">
-            <img src="img/header-bg.jpg" class="d-block w-100" alt="...">
+
+            <div class="slider-text">
+              <h3>CREATIVE BUSINESS SPECIALIST </h3>
+              <h1>WE ARE <span>ONU</span></h1>
+              <h4>WEB DESIGN/ ONE PAGE/ CREATIVE </h4>
+            </div>
+
           </div>
 
           <div class="carousel-item">
-            <img src="img/header-bg.jpg" class="d-block w-100" alt="...">
+
+            <div class="slider-text">
+              <h3>CREATIVE BUSINESS SPECIALIST </h3>
+              <h1>WE ARE <span>ONU</span></h1>
+              <h4>WEB DESIGN/ ONE PAGE/ CREATIVE </h4>
+            </div>
+
           </div>
 
         </div>
 
-
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
 
     </div>
-</section>
+  </section>
+  <!-- //header area end -->
+
+  <!-- about section start -->
+
+  <section id="about" class="section-padding">
+    <div class="container">
+
+      <div class="section-title pb-5">
+        <h2>ABOUT US </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum purus at sem ornare sodales. Morbi
+          leo nulla, pharetra vel felis nec, ullamcorper condimentum quam. </p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3">
+
+          <div class="about-item">
+            <div class="about-icon">
+              <i class="icofont-laptop-alt"></i>
+              <h2>WEB DESIGN</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec velit metus, imperdiet nefacibus</p>
+          </div>
+
+        </div>
+        <div class="col-lg-3">
+          <div class="about-item">
+            <div class="about-icon">
+              <i class="icofont-laptop-alt"></i>
+              <h2>WEB DESIGN</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec velit metus, imperdiet nefacibus</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="about-item">
+            <div class="about-icon">
+              <i class="icofont-brand-windows"></i>
+              <h2>DIGITAL MARKETING</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec velit metus, imperdiet nefacibus</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="about-item">
+            <div class="about-icon">
+              <i class="icofont-laptop-alt"></i>
+              <h2>WEB DESIGN</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec velit metus, imperdiet nefacibus</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- about section end -->
 
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
