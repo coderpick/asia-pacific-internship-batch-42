@@ -5,13 +5,20 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+    .slider-text h1 {
+        font-size: 82px;      
+    }
+    .service-item{
+        margin-bottom: 30px;
+    }
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
  
-    
+    .slider-text h1 {
+        font-size: 60px;      
+    }
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
